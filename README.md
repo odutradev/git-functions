@@ -58,8 +58,14 @@ $ git commit -m "Adicionando arquivo config.json"
 $ git commit -am "Adicionando arquivo README.md"
 ~~~
 
+#### Voltando para algum commit 
+~~~javascript
+sintaxe: $ git reset [ --soft / --mixed / --hard ] <commitID>
 
-
+$ git reset --soft hG7la2k //anula todos os commits feitos depois de hG7la2k 
+$ git reset --mixed jh7g89L // anula todos commits e arquivos adicionados depois de jh7g89L
+$ git reset --hard kjsd83y //Apaga todas modificações feitas depois de kjsd83y
+~~~
 
 
 ```
