@@ -97,9 +97,15 @@ $ git diff --name-only //mostra o nome de todos os arquivos que foram alterados
 $ git diff index.js //mostra as alterações de um arquivo especifico 
 ~~~
 
-#### 
+#### Restaurando um arquivo especifico
 ~~~javascript
+sintaxe: git checkout HEAD -- <name>
 
+$ git checkout HEAD -- index.js
+~~~
+
+####
+~~~javascript
 ~~~
 
 
