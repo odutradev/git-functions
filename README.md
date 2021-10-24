@@ -67,6 +67,43 @@ $ git reset --mixed jh7g89L // anula todos commits e arquivos adicionados depois
 $ git reset --hard kjsd83y //Apaga todas modificações feitas depois de kjsd83y
 ~~~
 
+#### Vendo alterações feitas nos ultimos commits 
+~~~javascript
+$ git log 
+~~~
+
+#### Verificando branchs ativos
+~~~javascript
+$ git branch 
+~~~
+#### Criando um novo branch
+~~~javascript
+sintaxe: git branch <name>
+
+$ git branch equipeOne
+~~~
+
+#### Mudando de um branch para outro
+~~~javascript
+sintaxe: git checkout <name>
+
+$ git checkout equipeOne
+~~~
+
+#### Verificando alterações feitas apartir do ultimo commit 
+~~~javascript
+$ git diff //mostra todas as alterações feitas
+$ git diff --name-only //mostra o nome de todos os arquivos que foram alterados
+$ git diff index.js //mostra as alterações de um arquivo especifico 
+~~~
+
+#### 
+~~~javascript
+
+~~~
+
+
+
 
 ```
 Copyright © 2021 DARKnx
