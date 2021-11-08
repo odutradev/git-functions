@@ -106,6 +106,7 @@ $ git checkout HEAD -- index.js
 
 ####
 ~~~javascript
+adicionando coisas novas ao longo do tempo
 ~~~
 
 
